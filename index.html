@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGT ECI Mesa y López</title>
+    <style>
+        body {
+            background-color: #f0f2f5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 10px;
+        }
+        .container {
+            background-color: white;
+            width: 100%;
+            max-width: 450px;
+            padding: 0 0 25px 0;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            overflow: hidden;
+            border-top: 8px solid #e30613;
+        }
+        /* Logo centrado y ajustado */
+        .header-box {
+            width: 100%;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo-img {
+            width: 90%; 
+            max-width: 380px;
+            height: auto;
+            display: block;
+        }
+        /* Título */
+        h1 {
+            color: #1a1a1a;
+            font-size: 26px; 
+            margin: 10px 20px;
+            line-height: 1.2;
+        }
+        /* Subtítulo en rojo */
+        .subtitle {
+            color: #e30613;
+            font-size: 17px;
+            font-weight: 600;
+            margin: 0 20px 25px 20px;
+        }
+        .btn-list {
+            padding: 0 20px;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            color: #333;
+            text-decoration: none;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.2s ease;
+            border: 1px solid #ddd;
+        }
+        .btn svg {
+            width: 22px;
+            height: 22px;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+        .btn:active {
+            transform: scale(0.98);
+            background-color: #f9f9f9;
+        }
+        /* Colores de identidad */
+        .whatsapp { border-left: 6px solid #25D366; }
+        .telegram { border-left: 6px solid #0088cc; }
+        .instagram { border-left: 6px solid #E1306C; }
+        .facebook { border-left: 6px solid #1877F2; }
+        .email { border-left: 6px solid #fbbc05; } /* Color amarillo/naranja para email */
+        .buzon { border-left: 6px solid #444; }
+
+        /* Footer */
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #e30613;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-box">
+            <img src="logo.png" alt="Logo UGT Canarias" class="logo-img">
+        </div>
+
+        <h1>¿Trabajas en E.C.I 7Palmas/Outlets?</h1>
+        <p class="subtitle">Únete a nuestras redes para estar informado:</p>
+
+        <div class="btn-list">
+            <a href="https://whatsapp.com/channel/0029VbCL74O96H4Y83v3Wi37" class="btn whatsapp">
+                <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .004 5.412.001 12.049c0 2.123.542 4.19 1.594 6.01L0 24l6.117-1.605a11.803 11.803 0 005.925 1.586h.005c6.637 0 12.048-5.413 12.052-12.051 0-3.216-1.252-6.242-3.525-8.514z"/></svg>
+                WhatsApp (Canal)
+            </a>
+
+            <a href="https://t.me/+trXy4vU5cjg5ZDc0" class="btn telegram">
+                <svg viewBox="0 0 24 24" fill="#0088cc"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.28.28-.43.28l.213-3.05 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.458c.538-.196 1.006.128.832.941z"/></svg>
+                Telegram
+            </a>
+
+            <a href="https://www.instagram.com/ugt.eci.canarias/" class="btn instagram">
+                <svg viewBox="0 0 24 24" fill="#E1306C"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.981 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                Instagram
+            </a>
+
+            <a href="https://www.facebook.com/people/UGT-ECI-Centro-7-Palmas-Outlets/61585859902604/" class="btn facebook">
+                <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Facebook
+            </a>
+
+            <a href="mailto:eci.laspalmas@fesmcugt.org" class="btn email">
+                <svg viewBox="0 0 24 24" fill="#fbbc05"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                Contacto Email
+            </a>
+
+            <a href="https://ugtecicana.github.io/buzon/" class="btn buzon">
+                <svg viewBox="0 0 24 24" fill="#444"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                Buzón Anónimo
+            </a>
+        </div>
+
+        <div class="footer">
+            Sección Sindical U.G.T
+        </div>
+    </div>
+
+</body>
+
+</html>
